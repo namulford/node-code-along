@@ -1,0 +1,23 @@
+{
+  "name": "code-along",
+  "version": "1.0.0",
+  "description": "BSCA node code along",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namulford/node-code-along.git"
+  },
+  "author": "Natty Mulf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namulford/node-code-along/issues"
+  },
+  "homepage": "https://github.com/namulford/node-code-along#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
