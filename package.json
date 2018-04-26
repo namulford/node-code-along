@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/namulford/node-code-along#readme",
   "dependencies": {
+    "ejs": "^2.5.9",
     "express": "^4.16.3"
   }
 }

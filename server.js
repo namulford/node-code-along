@@ -1,6 +1,11 @@
 var express = require('express');
 var app = express();
 
+app.set('view engine', 'ejs');
+
+app.get('/', function(req, res) {
+    res.render('index');
+})
 
 app.get('/howdy', function(req, res) {
     res.end('We made it here.  Howdy!');
@@ -21,3 +26,4 @@ app.get('/greeting/:name', function(req, res) {
 var server = app.listen(3000, function() {
     console.log('Server fired up on PORT 3000');
 })
+
